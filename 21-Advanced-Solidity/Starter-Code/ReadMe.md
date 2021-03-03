@@ -1,0 +1,5 @@
+### Inital Process
+For this homework assignment, we were required to create an ERC20 token that would be mined and then leveraged using OpenZeppelin. This would allow a user to send ETH to recieve PupperCoin in return. The repo consists of two files to create the crowdfunding operation. 
+
+### Coding 
+The starter code already provided us with the needed code to bootstrap the crowdfunding operation. We inherited five contracts from OpenZeppelin: Crowdsale, MintedCrowdsale, CappedCrowdsale, TimedCrowdsale, and RefundablePostDeliveryCrowdsale. We had the following parameters for the function which included: rate, token, wallet, goal, openingTime, closingTime, and more. It was possible to compile and send a sample transaction containing an amount of ETH to Puppercoin, but there were issues with showing the final transactions on MyCrypto. The screenshots present in the Screenshots folder give a visual representation of the process involved in compiling and using MetaMask to execute the transaction, but shows no reflection of balance on MyCrypto. 
